@@ -1,6 +1,5 @@
 # Don't save the vm or the ssh keys.
 .vagrant
-supporting/mpapis.asc
 supporting/ssh-for-bitbucket
 
 # OS generated files
