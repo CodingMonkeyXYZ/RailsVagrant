@@ -1,0 +1,21 @@
+==> default: Can't check signature: public key not found
+==> default: Warning, RVM 1.26.0 introduces signed releases and automated check of signa
+tures when GPG software found.
+==> default: Assuming you trust Michal Papis import the mpapis public key (downloading t
+he signatures).
+==> default: GPG signature verification failed for '/usr/local/rvm/archives/rvm-1.26.11.
+tgz' - 'https://github.com/rvm/rvm/releases/download/1.26.11/1.26.11.tar.gz.asc'!
+==> default: try downloading the signatures:
+==> default:     sudo gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462
+A1703113804BB82D39DC0E3
+==> default: or if it fails:
+==> default:     command curl -sSL https://rvm.io/mpapis.asc | sudo gpg --import -
+==> default:
+==> default: the key can be compared with:
+==> default:
+==> default:     https://rvm.io/mpapis.asc
+==> default:     https://keybase.io/mpapis
+The SSH command responded with a non-zero exit status. Vagrant
+assumes that this means the command failed. The output for this command
+should be in the log above. Please read the output to determine what
+went wrong.

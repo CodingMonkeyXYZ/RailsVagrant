@@ -1,0 +1,13 @@
+# Don't save the vm or the ssh keys.
+.vagrant
+supporting/mpapis.asc
+supporting/ssh-for-bitbucket
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
