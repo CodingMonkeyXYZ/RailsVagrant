@@ -1,6 +1,6 @@
 
 # README.txt
-=============
+Ruby on Rails setup with Vagrant / Oracle VM.
 
 ## Prerequisits:
 
