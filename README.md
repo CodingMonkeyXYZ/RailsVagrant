@@ -21,13 +21,10 @@ NOTE: using the above as-is is HIGHLY INSECURE for you - change the password!
 
 I haven't scripted the downloading of public keys. Instead, I've included them in this project. Why? Becuase that's more secure than downloading them each and every time you run this script. Of course, if you don't trust me, you should download and use your own coppies as follows (in fact I recomend this):
 
-- For RVM:
-curl -#LO https://rvm.io/mpapis.asc
-
 - For BitBucket:
 ssh-keyscan -t rsa,dsa bitbucket.org
 
-These keys need to go in the directory 'supporting', named mpapis.asc and bitbucket_keys respectively.
+These key needs to go in the directory 'supporting', named bitbucket_keys.
 
 Make sure you've set up BitBucket properly to accept connections via SSH, see:
 
